@@ -1,0 +1,11 @@
+.box-register {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+    z-index: 0;
+}
+@media screen and (max-width: 850px){
+    .box-register {
+        width: 95%;
+    }
+}

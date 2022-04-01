@@ -1,0 +1,149 @@
+body {
+    position: relative;
+    overflow-x: hidden;
+}
+.navbar-css {
+    padding: 3px;
+    /* border-bottom: 1px solid #ddd; */
+    box-shadow: 0px 1px 5px #ddd;
+}
+.side-bar-toggle span{
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 4px;
+    background-color: #444;
+    border-radius: 5px;
+}
+.side-bar-toggleback {
+    margin-top: 6px;
+    margin-left: 4px
+
+}
+.container {
+    overflow-x: auto;
+}
+.side-bar-toggleback span {
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin: 4px;
+    background-color: #444;
+    border-radius: 5px;
+}
+.side-bar-toggle {
+    top: 16px;
+    left: 20px;
+    z-index: 1;
+}
+.side-bar {
+    transform: translatex(-100%);
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    width: 220px;
+    z-index: 5;
+    box-shadow: 1px 0px 5px #ddd;
+    background-color: white;
+    transition: 0.2s;
+    /* border-right: 1px solid #aaa; */
+}
+.side-bar.slide {
+    transform: translateX(0%);
+}
+
+.side-bar-items a{
+    text-decoration: none;
+    color: #555;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.side-bar-items a:hover{
+    color: green;
+}
+.side-bar-items .active{
+    color: green;
+}
+.side-bar-items {
+    padding-left: 8px;
+}
+.side-img-logo small {
+    position: relative;
+    top: -15px;
+    font-size: 12px;
+}
+.side-img-logo {
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+}
+/* MAX MOBILE L  */
+@media screen and (max-width: 426px){
+    .side-bar-toggle {
+        top: 16px;
+        left: 20px;
+    }
+}
+
+@media print {
+    .print-button {
+        display: none;
+    }
+    .table-dark {
+        color: black;
+    }
+    .filter-button {
+        display: none;
+    }
+}
+.form-pesan {
+    display: none;
+}
+.breadcrumb-item{
+    font-size: 18px;
+}
+.breadcrumb-item a {
+    text-decoration: none;
+    color: #999;
+}
+.item-data-laporan {
+    list-style-type: none;
+    margin-left: 5px;
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+.form-tanggapan {
+    width: 50%;
+}
+@media screen and (max-width: 991px){
+    .form-tanggapan {
+        width: 90%;
+    }
+}
+.notif-login {
+    position: fixed;
+    z-index: 9;
+    border-radius: 5px;
+    right: 50px;
+    left:50px;
+    padding: 10px;
+    font-size: auto;
+    /* background-color: #333; */
+    color: #333;
+    
+}
+/* .dropdown-menu li a {
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+} */
+
+
+
+/* @media screen and (max-width: 469px){
+    .table {
+        width: auto;
+    }
+} */
+/* ===================================================================== */
+

@@ -1,0 +1,10 @@
+.box-login {
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+@media screen and (max-width: 850px){
+    .box-login {
+        width: 90%;
+    }
+}
